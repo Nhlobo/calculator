@@ -6,9 +6,13 @@ This is a simple savings calculator specifically designed to calculate savings i
 
 1. Enter your target savings amount in ZAR.
 2. Enter your monthly savings amount in ZAR.
-3. Enter your annual interest rate in percentage.
+3. Enter the annual interest rate you expect to earn on your savings (as a percentage).
 4. Click on the "Calculate" button.
-5. The calculator will display the approximate number of months it will take to reach your savings goal in ZAR.
+5. The calculator will display the approximate number of months it will take to reach your savings goal in ZAR, taking into account the monthly savings amount and the interest earned on your savings.
+
+## Purpose of Interest Rate
+
+The interest rate included in the calculator represents the percentage of your savings that you expect to earn as interest over time. It allows you to see how your savings will grow over time due to the interest earned on your savings. By including the interest rate, you get a more accurate estimate of how long it will take to reach your savings goal, taking into account both your monthly savings contributions and the interest earned on those savings.
 
 ## Deployment
 
