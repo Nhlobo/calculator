@@ -13,8 +13,8 @@ function calculate() {
     return;
   }
   
-  var monthlyInterestRate = interest / 100 / 12;
-  var months = Math.ceil(Math.log(target / monthly) / Math.log(1 + monthlyInterestRate));
+  var monthlyInterestRate = interest / 100 / 12; // Convert annual interest rate to monthly
+  var months = Math.ceil(Math.log(target / (monthly * (1 + monthlyInterestRate) - monthlyInterestRate)) / Math.log(1 + monthlyInterestRate));
   
   document.getElementById('result').innerHTML = "It will take approximately " + months + " months to reach your savings goal.";
 }
