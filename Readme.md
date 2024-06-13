@@ -29,11 +29,3 @@ cd investment-calculator
 
 ## Open index.html in your preferred web browser.
 
-## Project structure
-investment-calculator/
-│
-├── index.html        # The main HTML file
-├── script.js         # JavaScript file for calculation logic
-├── styles.css        # CSS file for styling
-└── README.md         # This README file
-
