@@ -22,3 +22,9 @@ This is a simple web-based investment calculator that allows users to calculate 
 
    ```bash
    git clone https://github.com/your-username/investment-calculator.git
+
+## Navigate to the project directory:
+
+cd investment-calculator
+
+## Open index.html in your preferred web browser.
