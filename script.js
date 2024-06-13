@@ -34,4 +34,4 @@ function calculate() {
   totalAmount = totalAmount.toFixed(2); // Round to 2 decimal places
   
   document.getElementById('result').innerHTML = "After " + period + " years, your investment will be approximately ZAR " + totalAmount + ".";
-}
+    }
