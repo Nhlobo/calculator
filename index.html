@@ -3,27 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Savings Calculator (ZAR)</title>
+<title>Investment Calculator</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="container">
-  <h1>Savings Calculator (ZAR)</h1>
+  <h1>Investment Calculator</h1>
   <div class="input-group">
-    <label for="target">Target Savings Amount (ZAR):</label>
-    <input type="number" id="target" placeholder="Enter target amount">
+    <label for="principal">Initial Investment Amount (ZAR):</label>
+    <input type="number" id="principal" placeholder="Enter initial amount">
   </div>
   <div class="input-group">
-    <label for="monthly">Monthly Savings Amount (ZAR):</label>
-    <input type="number" id="monthly" placeholder="Enter monthly amount">
+    <label for="rate">Annual Interest Rate (%):</label>
+    <input type="number" id="rate" placeholder="Enter annual interest rate">
   </div>
   <div class="input-group">
-    <label for="interest">Annual Interest Rate (%):</label>
-    <input type="number" id="interest" placeholder="Enter annual interest rate">
+    <label for="period">Investment Period (years):</label>
+    <input type="number" id="period" placeholder="Enter investment period in years">
+  </div>
+  <div class="input-group">
+    <label for="type">Interest Type:</label>
+    <select id="type">
+      <option value="simple">Simple Interest</option>
+      <option value="compound">Compound Interest</option>
+    </select>
+  </div>
+  <div class="input-group">
+    <label for="frequency">Interest Compounding Frequency:</label>
+    <select id="frequency">
+      <option value="monthly">Monthly</option>
+      <option value="quarterly">Quarterly</option>
+      <option value="yearly">Yearly</option>
+    </select>
   </div>
   <button onclick="calculate()">Calculate</button>
   <div id="result"></div>
 </div>
 <script src="script.js"></script>
 </body>
-</html>
+      </html>
