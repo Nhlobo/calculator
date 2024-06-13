@@ -1,31 +1,24 @@
-# ZAR Savings Calculator
+# Investment Calculator
 
-This is a simple savings calculator specifically designed to calculate savings in South African Rand (ZAR).
+This is a simple web-based investment calculator that allows users to calculate the future value of their investments based on initial amount, interest rate, investment period, type of interest (simple or compound), and compounding frequency (monthly, quarterly, yearly).
 
-## Usage
+## Features
 
-1. Enter your target savings amount in ZAR.
-2. Enter your monthly savings amount in ZAR.
-3. Enter the annual interest rate you expect to earn on your savings (as a percentage).
-4. Click on the "Calculate" button.
-5. The calculator will display the approximate number of months it will take to reach your savings goal in ZAR, taking into account the monthly savings amount and the interest earned on your savings.
+- Calculate future value using either simple or compound interest.
+- Select interest compounding frequency: monthly, quarterly, or yearly.
+- User-friendly interface with intuitive inputs.
+- Responsive design for various screen sizes.
+- Footer section with social media links.
 
-## Purpose of Interest Rate
+## Technologies Used
 
-The interest rate included in the calculator represents the percentage of your savings that you expect to earn as interest over time. It allows you to see how your savings will grow over time due to the interest earned on your savings. By including the interest rate, you get a more accurate estimate of how long it will take to reach your savings goal, taking into account both your monthly savings contributions and the interest earned on those savings.
+- HTML
+- CSS
+- JavaScript
 
-## Deployment
+## How to Use
 
-You can deploy this calculator on any web hosting service or locally on your machine.
+1. **Clone the repository:**
 
-## Development
-
-Feel free to customize and modify the calculator to suit your needs. You can add additional features or improve the user interface.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+   ```bash
+   git clone https://github.com/your-username/investment-calculator.git
