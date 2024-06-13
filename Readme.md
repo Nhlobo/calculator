@@ -29,3 +29,12 @@ cd investment-calculator
 
 ## Open index.html in your preferred web browser.
 
+# License© 
+2024 Nhlovo Mathebula. All rights reserved.
+
+# Contact
+GitHub: Nhlobo
+LinkedIn: nhlovo-mathebula
+Email: nhlobo365@gmail.com
+
+Feel free to reach out if you have any questions or suggestions!
