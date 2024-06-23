@@ -2,7 +2,7 @@
 
 This is a simple web-based investment calculator that allows users to calculate the future value of their investments based on initial amount, interest rate, investment period, type of interest (simple or compound), and compounding frequency (monthly, quarterly, yearly).
 
-https://i.imgur.com/O6NE7RW.jpeg
+<img src="https://i.imgur.com/O6NE7RW.jpeg"/>
 
 ## Features
 
