@@ -31,7 +31,6 @@ cd investment-calculator
 
 # License© 
 2024 Nhlovo Mathebula. All rights reserved.
-Nhlovo Mathebula - [GitHub](https://github.com/Nhlobo) 
 
 # Contact
 GitHub: Nhlobo
