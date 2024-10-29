@@ -15,7 +15,8 @@ body {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-  width: 400px;
+  width: 90%; /* Changed from 400px to 90% for responsive design */
+  max-width: 400px; /* Maintain a maximum width */
 }
 
 .input-group {
@@ -73,60 +74,54 @@ footer {
 
 .social-icons a:hover {
   color: #4caf50;
-  }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.container {
-    text-align: center;
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-
-.error-icon {
-    margin-bottom: 20px;
 }
 
 h1 {
-    font-size: 28px;
-    margin-bottom: 15px;
+  font-size: 24px; /* Reduced font size for smaller screens */
+  margin-bottom: 15px;
 }
 
 p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .buttons {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 10px;
-    font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Adjusted padding for smaller buttons */
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px; /* Reduced margin between buttons */
+  font-size: 14px; /* Adjusted font size for buttons */
 }
 
 button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 .help {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #777;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
 }
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px; /* Reduced padding on small screens */
+  }
+
+  h1 {
+    font-size: 20px; /* Further reduce heading size on small screens */
+  }
+
+  button {
+    padding: 8px 15px; /* Smaller button padding */
+    font-size: 12px; /* Smaller button font size */
+  }
+  }
